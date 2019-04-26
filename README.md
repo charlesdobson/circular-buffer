@@ -10,7 +10,7 @@ Here's a link to the blog post:
 All basic functionality has been added.
 
 # Screenshots
-![screenshot](images/screenshot.png =200X40)
+![screenshot](images/screenshot.png =200x40)
 
 # Tech
 **Built With**
