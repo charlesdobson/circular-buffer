@@ -18,13 +18,13 @@
 #define		MAX_LENGTH_OF_STRING	81  // Arbitrary number for temporary strings
 #define		SUCCESS			        0
 #define		FAILURE			        -1
-#define     EXIT_LOOP               1
+#define		EXIT_LOOP               1
 
 
 
 //  PROTOTYPES
-void    displayMainMenu(void);
-int	    getNumber(int* pNumber);
+void	displayMainMenu(void);
+int		getNumber(int* pNumber);
 
 
 
@@ -43,7 +43,7 @@ int main(void) {
 	/* ---------------------------- OPTION 1 - WRITE --------------------------- */
 
 		if (optionNumber == 1) {
-            // Check if buffer is full
+    		// Check if buffer is full
 			if (bufferLength == SIZE_OF_BUFFER) {
 				printf("\n    Buffer is full!\n\n    ");
 				getchar();
@@ -56,7 +56,7 @@ int main(void) {
 			bufferLength++;	 //	Increase buffer size after writing
 			writeIndex++;	 //	Increase writeIndex position to prepare for next write
 
-            // If at last index in buffer, set writeIndex back to 0
+			// If at last index in buffer, set writeIndex back to 0
 			if (writeIndex == SIZE_OF_BUFFER) {
 				writeIndex = 0;
 			}
@@ -113,7 +113,7 @@ void displayMainMenu(void) {
 	printf("    Please choose from the following options:\n\n");
 	printf("        1    Input  Value\n");
 	printf("        2    Output Value\n");
-    printf("        3    Exit Program\n");
+	printf("        3    Exit Program\n");
 	printf("\n==============================================================\n\n    ");
 }
 
