@@ -17,4 +17,4 @@ All basic functionality has been added.
 - C
 
 # License
-MIT © Charles Dobson
+[MIT](LICENSE) © Charles Dobson
